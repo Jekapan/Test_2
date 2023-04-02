@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+
+    <script type="module" src="main.js" defer></script>
+</head>
+<body>
+    <header class="primary-header">
+        <div class="container">
+            <div class="nav-wraper">
+                <a href="#">
+                    <svg class="logo" width="105" height="40">
+                      <use xlink:href="img/logo.svg#logo"></use>
+                    </svg>
+                </a>
+
+                <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="visually-hidden">Menu</span>
+                </button>
+               
+                <nav class="primary-navigation">
+                    <ul aria-label="Primary" role="list" class="nav-list" id="primary-navigation">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#stories">Stories</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#FAQ">FAQ</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+
+                <button class="button | display-sm-none display-md-inline-flex">Get the Inito kit</button>
+              
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="primary-heading">
+                    <h1>
+                        Track your fertility hormones at home, in <span class="underline">5 minutes.</span> 
+                    </h1>
+                    <p>
+                        Get accurate results of Estrogen, LH and Progesterone with Inito, the all-in-one, FDA-registered fertility monitor.
+                    </p>
+                    <button class="button">Learn more</button>
+                </div>
+                <div class="hero-img">
+                    <img src="img/hero-img.svg" alt="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="logos">
+            <div class="container">
+                <div class="logos-text">
+                    <p>as seen on</p>
+                </div>
+                <div class="logos-img | row ">
+                    <div class="logos-item"><img src="img/theweek.svg" alt=""></div>
+                    <div class="logos-item"><img src="img/entreprenuer.svg" alt=""></div>
+                    <div class="logos-item"><img src="img/bloomberg.svg" alt=""></div>
+                    <div class="logos-item"><img src="img/forbes.svg" alt=""></div>
+                    <div class="logos-item"><img src="img/washington.svg" alt=""></div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-wrapper | mx-auto">
+                    <div class="gray-background-mb">
+                        <h2 class="about-heading">Not all ovulation tests are <br class="br-hidden"> created <span class="underline">equal</span></h2>
+                        <p>Most ovulation tests predict your fertile days by 
+                            tracking Estrogen and Luteinizing Hormone (LH), 
+                            but fail to measure the hormone that actually confirms
+                            your ovulation and supports pregnancy: <strong>Progesterone.</strong></p>
+                    </div>
+                    <div class="gray-background-mb">
+                        <h2 class="about-heading">What makes <span class="underline">Inito</span> different?</h2>
+                        <p>Inito is the only fertility monitor that measures all
+                            <strong>3 hormones</strong> on a single test strip, showing you a full 
+                            picture of your cycles with results unique to your body.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="predict">
+            <div class="container | predict-wrapper gray-background">
+                <div class="predict-item__text mx-auto">
+                    <h2>Predict and confirm your ovulation with <span class="underline">actual</span> data</h2>
+                    <p>Unlike most ovulation tests that only give you "yes/no" results, Inito provides <strong>real numerical values</strong> of your fertility hormones. <br><br>
+                    If you have irregular cycles, actual data is necessary to know exactly when you ovulate, and when is the best time to try to conceive.</p>
+                    <button class="button">Get the Inito kit</button>
+                </div>
+                <div class="predict-item__img phone">
+                    <img class="mx-auto" src="img/iphone-image.svg" alt="iphone-image">
+                </div>
+                <div class="predict-item__img mx-auto">
+                    <img src="img/graph.svg" alt="graph">
+                    <ul class="legend legend--color | row">
+                        <li>Estrogen</li>
+                        <li>Luteinizing Hormone</li>
+                        <li>Progesterone</li>
+                    </ul>
+                </div>
+                <div class="predict-item__text mx-auto">
+                    <h2>Never <span class="underline">miss</span> a day again with Inito</h2>
+                    <p>Inito tracks up to <strong>6 fertile days</strong> and confirms ovulation by measuring all 3 hormones in just 5 minutes:</p>
+                    <ul class="legend--color">
+                        <li>Estrogen, which rises 3-4 days before ovulation</li>
+                        <li>LH, which surges 24-36 hours before ovulation</li>
+                        <li>Progesterone (PdG), which rises after ovulation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="why" id="stories">
+            <div class="container">
+                <div class="why-wrapper">
+                    <div class="avatar mx-auto">
+                        <h3>“Inito is all that you need to give you the <span class="underline display-sm-none">best</span> chance of conception."</h3>
+                        <div class=" row">
+                            <img src="img/avatar.svg" alt="avatar">
+                            <p><strong>Dr. Rachel Wagner</strong><br>MD</p> 
+                        </div>
+                    </div>
+
+                    <article class="gray-background gray-background-mb">
+                        <h3>Why measure Progesterone?</h3>
+                        <p>Anovulation (having a menstrual cycle with no egg) is actually a common occurrence, affecting 1 in 10 women*.<br><br>
+                            A sure way to confirm ovulation is a rise in Progesterone level after peak fertility. Progesterone also supports 
+                            implantation and elevated levels of PdG during the 7-10 day window after ovulation correlates to higher chances of a successful pregnancy.</p>
+                        <p>* Source: National Institutes of Health</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-info">
+            <div class="container">
+                <h2>Why Inito is the smarter way to get pregnant</h2>
+                <div class="main-info__grid">
+                    <div class="main-info__item1">
+                        <img src="img/1.svg" alt="girl with drudgs">
+                    </div>
+                    <div class="main-info__item2">
+                        <h3>Adapts to your <span class="underline">unique</span> irregular cycle</h2>
+                        <p>Most ovulation kits have a set value or a threshold, making them likely to give a 
+                            false read if your hormones fall outside the average range.</p>
+                        <p>Every woman is unique, especially with a condition like PCOS or Thyroid which can 
+                            influence hormone levels. Inito measures real values of your hormones to personalize
+                             results to the unique you.</p>
+                        <button class="button">Get the Inito kit</button>
+                    </div>
+
+                    <div class="main-info__item3">
+                        <h3>Inito <span class="underline">tracks</span> everything so you don’t have to</h2>
+                        <p>The Inito Fertility Monitor comes with a free easy-to-use App, so you can track 
+                            your fertile days with ease and know exactly when you ovulate.</p>
+                        <p>Our App notifies you for everything:</p>
+                        <ul>
+                            <li>Your fertility levels</li>
+                            <li>When to test on the right days</li>
+                            <li>When you’ve successfully ovulated</li>
+                            <li>And when to roll into bed!</li>
+                        </ul>
+                        <button class="button">Get the Inito kit</button>
+                    </div>
+                    <div class="main-info__item4">
+                        <img src="img/phone_with.svg" alt="Iphone">
+                    </div>
+
+                    <div class="main-info__item5">
+                        <img src="img/waves.svg" alt="graphic">
+                    </div>
+                    <div class="main-info__item6">
+                        <h3>Get charts and actual values of your <span class="underline">hormones</span></h2>
+                        <p>Actual numerical values are necessary to know whether your PdG levels are 
+                            sufficient enough to support a healthy pregnancy.</p>
+                        <p>Studies show that Pdg levels lower than 7.9ng/ml in serum (around 10ug/ml PdG)
+                             6-8 days after ovulation are associated with lower pregnancy outcomes.</p>
+                        <button class="button">Get the Inito kit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-to">
+            <div class="container | row">
+                <div class="how-to_text">
+                    <h2>Your own fertility lab at your <span class="underline">fingertips</span></h2>
+                    <p>Easy-to-read fertility diagnostic results directly on your iPhone, in just 5 minutes.</p>
+                    <button class="button">Get the Inito kit</button>
+                    <p class="notes">* The Inito Fertility Monitor currently supports iPhone 7 and up. Android phones are not supported at the moment.</p>
+                </div>
+
+                <div class="how-to__grid">
+                    <div class="how-to__grid--item">
+                        <img src="img/ezgif 1.svg" alt="gif">
+                        <div class="how-to__description">
+                            <div class="steps">1</div>
+                            <p>Dip the test strip in urine for 15 seconds.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="how-to__grid--item">
+                        <img src="img/ezgif 2.svg" alt="">
+                        <div class="how-to__description">
+                            <div class="steps">2</div>
+                            <p>Attach the Inito Fertility Monitor to your iPhone*.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="how-to__grid--item">
+                        <img src="img/ezgif 3.svg" alt="">
+                        <div class="how-to__description">
+                            <div class="steps">3</div>
+                            <p>Insert the test strip into the Inito Fertility Monitor.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="how-to__grid--item">
+                        <img src="img/ezgif 4.svg" alt="">
+                        <div class="how-to__description">
+                            <div class="steps">4</div>
+                            <p>Get personalized results on our App in 5 minutes.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <ul class="slider">
+                    <li>
+                        <div class="card">
+                            <div class="card__text">
+                                <h4>Inito tells you all you need to monitor your fertility</h4>
+                                <p>I made comparisons with other brands to allow me to choose the better product better. Inito tests all three of the hormones - LH, Estrogen, and Progesterone all in one stick. How can other products ignore measuring progesterone? It’s a no brainer! You guys are tops. I highly recommend Inito</p>
+                            </div>
+                            <div class="user-name">
+                                <div class="row">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                </div>
+                                <p><strong>Krista Wilhelm</strong></p>
+                                <p>May 22, 2021</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card">
+                            <div class="card__text">
+                                <h4>Inito tells you all you need to monitor your fertility</h4>
+                                <p>I made comparisons with other brands to allow me to choose the better product better. Inito tests all three of the hormones - LH, Estrogen, and Progesterone all in one stick. How can other products ignore measuring progesterone? It’s a no brainer! You guys are tops. I highly recommend Inito</p>
+                            </div>
+                            <div class="user-name">
+                                <div class="row">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                </div>
+                                <p><strong>Krista Wilhelm</strong></p>
+                                <p>May 22, 2021</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card">
+                            <div class="card__text">
+                                <h4>Inito tells you all you need to monitor your fertility</h4>
+                                <p>I made comparisons with other brands to allow me to choose the better product better. Inito tests all three of the hormones - LH, Estrogen, and Progesterone all in one stick. How can other products ignore measuring progesterone? It’s a no brainer! You guys are tops. I highly recommend Inito</p>
+                            </div>
+                            <div class="user-name">
+                                <div class="row">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                </div>
+                                <p><strong>Krista Wilhelm</strong></p>
+                                <p>May 22, 2021</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card">
+                            <div class="card__text">
+                                <h4>Inito tells you all you need to monitor your fertility</h4>
+                                <p>I made comparisons with other brands to allow me to choose the better product better. Inito tests all three of the hormones - LH, Estrogen, and Progesterone all in one stick. How can other products ignore measuring progesterone? It’s a no brainer! You guys are tops. I highly recommend Inito</p>
+                            </div>
+                            <div class="user-name">
+                                <div class="row">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                </div>
+                                <p><strong>Krista Wilhelm</strong></p>
+                                <p>May 22, 2021</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card">
+                            <div class="card__text">
+                                <h4>Inito tells you all you need to monitor your fertility</h4>
+                                <p>I made comparisons with other brands to allow me to choose the better product better. Inito tests all three of the hormones - LH, Estrogen, and Progesterone all in one stick. How can other products ignore measuring progesterone? It’s a no brainer! You guys are tops. I highly recommend Inito</p>
+                            </div>
+                            <div class="user-name">
+                                <div class="row">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                    <img src="img/star.svg" alt="star">
+                                </div>
+                                <p><strong>Krista Wilhelm</strong></p>
+                                <p>May 22, 2021</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+
+        <section id="FAQ" class="faq">
+            <div class="container | row">
+                <h2 class="faq__headline">Your <span class="underline">top</span> questions, answered</h2>
+                <div class="quations-card-wrapper">
+                    <div class="card-text-wrapper collapsible-container">
+                        <div>
+                            <h4>What results does Inito give?</h4>
+                        </div>
+                        <p class="card-text collapsible">Inito gives results as: High Fertility, 
+                            Peak Fertility or Ovulation Confirmed. Inito also shows you the 
+                            charts and actual values of all 3 hormones.</p>
+                    </div>
+                    <div class="card-text-wrapper collapsible-container">
+                        <div>
+                            <h4>Do I need to use a test strip for each hormone?</h4>
+                        </div>
+                        <p class="card-text collapsible">Inito gives results as: High Fertility, 
+                            Peak Fertility or Ovulation Confirmed. Inito also shows you the 
+                            charts and actual values of all 3 hormones.</p>
+                    </div>
+                    <div class="card-text-wrapper collapsible-container">
+                        <div>
+                            <h4>How many test strips are required per cycle?</h4>
+                        </div>
+                        <p class="card-text collapsible">Inito gives results as: High Fertility, 
+                            Peak Fertility or Ovulation Confirmed. Inito also shows you the 
+                            charts and actual values of all 3 hormones.</p>
+                    </div>
+                    <div class="card-text-wrapper collapsible-container">
+                        <div>
+                            <h4>Will inito work if I have pcos?</h4>
+                        </div>
+                        <p class="card-text collapsible">Inito gives results as: High Fertility, 
+                            Peak Fertility or Ovulation Confirmed. Inito also shows you the 
+                            charts and actual values of all 3 hormones.</p>
+                    </div>
+                    <div class="card-text-wrapper collapsible-container">
+                        <div>
+                            <h4>Do medications affect the results?</h4>
+                        </div>
+                        <p class="card-text collapsible">Inito gives results as: High Fertility, 
+                            Peak Fertility or Ovulation Confirmed. Inito also shows you the 
+                            charts and actual values of all 3 hormones.</p>
+                    </div>
+                    <div class="card-text-wrapper collapsible-container">
+                        <div>
+                            <h4>How accurate is Inito?</h4>
+                        </div>
+                        <p class="card-text collapsible">Inito gives results as: High Fertility, 
+                            Peak Fertility or Ovulation Confirmed. Inito also shows you the 
+                            charts and actual values of all 3 hormones.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+
+                <div class="footer-feedback">
+                    <div class="footer-feedback__item">
+                        <img src="img/icon-trusted-couples.svg" alt="icon">
+                        <p>TRUSTED BY 20,000+ COUPLES</p>
+                    </div>
+                    <div class="footer-feedback__item">
+                        <img src="img/icon-free-shipping.svg" alt="icon">
+                        <p>FREE US SHIPPING</p>
+                    </div>
+                    <div class="footer-feedback__item">
+                        <img src="img/icon-fda.svg" alt="icon">
+                        <p>FDA-REGISTERED (HSA/FSA ELIGIBLE)</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <span><a href="#facebook"><img src="img/facebook.svg" alt=""></a></span>
+                    <span><a href="#youtoob"><img src="img/youtube.svg" alt=""></a></span>
+                    <span><a href="#linkedin"><img src="img/linkedin.svg" alt=""></a></span>
+                </div>
+                <div class="footer__logo">
+                    <a href="#" aria-label="home">
+                        <svg class="logo" width="105" height="40">
+                            <use xlink:href="img/logo.svg#logo"></use>
+                        </svg>
+                    </a>
+                </div>
+                
+            
+
+                <div class="footer-nav">
+                    <div class="footer-nav__wrapper collapsible-container">
+                        <h5>Company</h5>
+                        <div class="footer-link__item collapsible">
+                            <a href="">About</a>
+                            <a href="">Buy</a>
+                            <a href="">Blog</a>
+                            <a href="">Contacts</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav__wrapper collapsible-container">
+                        <h5>Support</h5>
+                        <div class="footer-link__item collapsible">
+                            <a href="">FAQ</a>
+                            <a href="">Terms</a>
+                            <a href="">Privacy</a>
+                            <a href="">Return & Warranty</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav__wrapper collapsible-container">
+                        <h5>Ger in touch</h5>
+                        <div class="footer-link__item collapsible">
+                            <a href="">+1 815-369-0989</a>
+                            <a href="">help@inito.com</a>
+                            <a href="">355 Bryant Street, Unit 403, San Francisco CA 94107</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <article class="copyright">
+                <p>† Inito is a medical device registered with the FDA and the return 
+                    policy is to allow flexibility to the consumer while ensuring that 
+                    products safe and effective for us.
+                </p> <br>
+                <p>The following policy applies for purchases made through inito.com 
+                    or the Inito App. If you purchased your product from Amazon or 
+                    another authorized retailer, please speak with a representative 
+                    from the original place of purchase as Inito must adhere to 
+                    their policies and procedures. Products purchased through an 
+                    unauthorized reseller are not eligible for any refund, cancellation, or replacement.
+                </p> <br>
+                <p>In order to be eligible for a refund, cancellation, or replacement
+                     from purchases made on inito.com, customers must provide proof 
+                     of purchase. For prompt service, please email our Customer 
+                     Care Team and provide your order number for any request for the following:
+                </p> <br>
+                <p>If your order has not shipped, you are eligible for a 100% refund
+                     of your inito.com order.
+                    - Orders once shipped, are not eligible for any return, refunds or exchange.
+                    - Damaged or defective products are covered by our 6-month limited warranty applicable 
+                    from the from the date of purchase. During the warranty period, Inito will either repair or replace, 
+                    at its option, any defective Product or part at no charge to you.
+                </p> <br>
+                <p>© Inito Inc. All rights reserved.</p>
+            </article>
+        </div>
+    </footer>
+    <script src="//unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
+</body>
+</html>
